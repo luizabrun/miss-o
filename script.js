@@ -11,11 +11,17 @@ const perguntas = [
         alternativas:
             {
                 texto: "sim",
-                afirmacao: "isso e maravilhoso "
+                afirmacao: [
+                    "isso e maravilhoso ",
+                    "",
+                ]
             },
             {
                 texto: "nao"
-                afirmacao: "que pena"
+                afirmacao:[
+                  "que pena",
+                    "",
+                ]
             }
         ]
     },
@@ -24,11 +30,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "e um esporte",
-                afirmacao: "boa"
+                afirmacao: ["boa",
+                 "", 
+                ]
+
             },
             {
                 texto: "e um esporte e dentro do esporte tem o jogo",
-                afirmacao: "extamente, incrivel"
+                afirmacao: [ "extamente, incrivel",
+                    "",
+                ]
             }
         ]
     },
@@ -37,11 +48,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "ns estado unidos",
-                afirmacao: "isso correto"
+                afirmacao: ["isso correto",
+                    "",
+                ]
             },
             {
                 texto: "espanha",
-                afirmacao: "nao, que pena"
+                afirmacao: ["nao, que pena",
+                    "",
+                ]
             }
         ]
     },
@@ -50,11 +65,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "4",
-                afirmacao: "nao e isso que pena"
+                afirmacao: ["nao e isso que pena",
+                    "",
+                ]
             },
             {
                 texto: "6",
-                afirmacao: "correto, precisamos de 6 jogadores"
+                afirmacao:["correto, precisamos de 6 jogadores",
+                    "",
+                ]
             }
         ]
     },
@@ -63,11 +82,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "4 e ai passar para o adversario ",
-                afirmacao: "maximo 3 toque para ai passar"
+                afirmacao:[ "maximo 3 toque para ai passar",
+                    "",
+                ]
             },
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: ["Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. ",
+                   "",
+                ]
             }
         ]
     },
